@@ -12,13 +12,13 @@ const render = require("./lib/htmlRenderer");
 
 const team = []
 
-// Employee
+// Employees
 const whatToDo = () => {
   inquirer
     .prompt([
       {
         type: 'list',
-        message: 'What team member would you like to add?',
+        message: 'Which employee would you like to add?',
         name: 'members',
         choices: ["Engineer", "Intern", "Quit"]
       },
@@ -62,7 +62,7 @@ const makeEngineer = () => {
       },
       {
         type: 'input',
-        message: 'What is your email?',
+        message: 'What is your primary email?',
         name: 'email',
       },
       {
@@ -94,7 +94,7 @@ const makeIntern = () => {
       },
       {
         type: 'input',
-        message: 'What is your email?',
+        message: 'What is your primary email?',
         name: 'email',
       },
       {
@@ -132,7 +132,7 @@ const makeManager = () => {
       },
       {
         type: 'input',
-        message: 'What is your officeNumber?',
+        message: 'What is your office number?',
         name: 'officeNumber',
       },
     ])
