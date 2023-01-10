@@ -25,4 +25,5 @@
 ## INSTRUCTIONS FOR USE
 • Open your terminal and navigate to the root directory of this project. Next, run the command - 'node index.js'. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.
 
-## LICENSE
+## Screenshot 
+![homepage](screenshot/screenshot-nimbusweb.me-2023.01.09-21_42_38.png)
